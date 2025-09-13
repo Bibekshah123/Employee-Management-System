@@ -6,7 +6,7 @@ A production-ready backend for managing **employees, departments, attendance, an
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+Windows: venv\Scripts\activate  #source venv/bin/activate (Mac)
 pip install -r requirements.txt
 python manage.py makemigrations
 python manage.py migrate
